@@ -1,0 +1,12 @@
+Source: ros-hydro-sicktoolbox-wrapper
+Section: misc
+Priority: extra
+Maintainer: Chad Rockey <chadrockey@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-diagnostic-updater, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-sicktoolbox
+Homepage: http://ros.org/wiki/sicktoolbox_wrapper
+Standards-Version: 3.9.2
+
+Package: ros-hydro-sicktoolbox-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-updater, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-sensor-msgs, ros-hydro-sicktoolbox
+Description: sicktoolbox_wrapper is a ROS wrapper for the outstanding sicktoolbox library for interfacing with the SICK LMS2xx lasers.
