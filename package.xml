@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
   <name>sicktoolbox_wrapper</name>
-  <version>2.5.2</version>
+  <version>2.5.3</version>
   <description>sicktoolbox_wrapper is a ROS wrapper for the outstanding <a href="http://www.ros.org/wiki/sicktoolbox">sicktoolbox</a>
     library for interfacing with the SICK LMS2xx lasers.
   </description>
 
-  <maintainer email="chadrockey@willowgarage.com">Chad Rockey</maintainer>
+  <maintainer email="chadrockey@gmail.com">Chad Rockey</maintainer>
 
   <license>BSD</license>
 
