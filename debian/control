@@ -1,0 +1,12 @@
+Source: ros-indigo-sicktoolbox-wrapper
+Section: misc
+Priority: extra
+Maintainer: Chad Rockey <chadrockey@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-diagnostic-updater, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-sicktoolbox
+Homepage: http://ros.org/wiki/sicktoolbox_wrapper
+Standards-Version: 3.9.2
+
+Package: ros-indigo-sicktoolbox-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-diagnostic-updater, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-sicktoolbox
+Description: sicktoolbox_wrapper is a ROS wrapper for the outstanding sicktoolbox library for interfacing with the SICK LMS2xx lasers.
